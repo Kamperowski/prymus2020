@@ -3,17 +3,49 @@
 <head>
 <meta charset="UTC-8">
 <title>My first page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+	p {color: #ff0000; background-color: #ff99ff;}
+	body {background-color: powderblue;}
+	button {background-color:#0099cc; color:white;}
+	button:hover {background-color: #006080; color: white;}
+	body {margin: 50px;}
+</style>
 </head>
 <body>
-<h1>Prymus 2020 Kurs</h1>
+	<h1>Prymus 2020 Kurs</h1>
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
+<ol>
+	<li>raz</li>
+	<li>dwa</li>
+	<li>trzy</li>
+
 <p>Hello! This is my first content.</p>
 <p>Not quite professional, but i'm learning fast!</p>
-<p>Here's an image of a panda:</p>
+
+<a href="https://www.youtube.com/">
+YT
+</a>
+<form>
+<input type="text" id="name" placeholder="Imię">
+<input type="submit" value="Try to submit">
+<input type="checkbox" id="child">Under 18?<form>
+<label for="pwd2">Password</label>
+<input type="password" id="pwd2" minlength="8"> 
+<input type="submit" value="Submit an incorrect length">
+</form>
+<button class="btn btn-danger">Przycisk z klasą .btn .btn-info</button>
+<button>Przycisk podstawowy bez bootstrapa</button> 
 <img src="https://cdnpl1.img.sputniknews.com/img/658/88/6588886_180:348:2984:1865_1000x0_80_0_1_220bbbd55ea8897f72a43cbe4c16841c.jpg.webp" alt="Panda" width="400" height="200" </img>
+
+<div class="alert alert-danger" role="alert">
+XD!
+</div>
 </body>
 </html>
